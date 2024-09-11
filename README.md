@@ -32,10 +32,13 @@ This Python program allows you to control a PowerPoint presentation using voice 
    ```
    pip install pyttsx3
     ```
+    ```
    pip install SpeechRecognition
     ```
+     ```
    pip install pyautogui
     ```
+      ```
    pip install pygetwindow
    ```
 

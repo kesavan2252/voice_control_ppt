@@ -30,19 +30,25 @@ This Python program allows you to control a PowerPoint presentation using voice 
    Use the following command to install all the required packages:
 
    ```
-   pip install pyttsx3 SpeechRecognition pyautogui pygetwindow
+   pip install pyttsx3
+    ```
+   pip install SpeechRecognition
+    ```
+   pip install pyautogui
+    ```
+   pip install pygetwindow
    ```
 
    If you don't have `pip` installed, follow the [pip installation guide](https://pip.pypa.io/en/stable/installation/) first.
 
-3. **Set the Path for Your PowerPoint File**
+4. **Set the Path for Your PowerPoint File**
    In the script, replace the placeholder `ppt_path` with the actual path to your PowerPoint `.pptx` file:
 
    ```python
    ppt_path = r"C:\Users\YourUsername\Path\To\Your\Presentation.pptx"
    ```
 
-4. **Run the Program**
+5. **Run the Program**
    Once everything is set up, you can run the program:
 
    ```
